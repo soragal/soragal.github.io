@@ -6,33 +6,10 @@
   <link href="http://soragalsoft.top/atom.xml" rel="self"/>
   
   <link href="http://soragalsoft.top/"/>
-  <updated>2025-02-28T13:20:06.816Z</updated>
+  <updated>2025-02-22T13:44:54.933Z</updated>
   <id>http://soragalsoft.top/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>tianshi</title>
-    <link href="http://soragalsoft.top/2025/02/28/tianshi/"/>
-    <id>http://soragalsoft.top/2025/02/28/tianshi/</id>
-    <published>2025-02-28T13:19:28.000Z</published>
-    <updated>2025-02-28T13:20:06.816Z</updated>
-    
-    <content type="html"><![CDATA[<div align="center">  <div class="button-container">    <button class="name-button active" onclick="changeImage('izumi')">和泉妃爱</button>    <button class="name-button" onclick="changeImage('tokiwa')">常磐华乃</button>    <button class="name-button" onclick="changeImage('nishiki')">锦明日海</button>    <button class="name-button" onclick="changeImage('kamakura')">镰仓诗樱</button>  </div>  <div class="image-container">    <img id="personImage" src="和泉妃爱的图片URL" alt="角色图片" style="max-width: 80%; height: auto;">  </div></div><style>.button-container {  display: flex; /* 水平排列按钮 */  justify-content: center; /* 按钮居中 */  margin-bottom: 10px; /* 按钮容器底部留出一些空间 */}.name-button {  padding: 8px 15px;  margin: 0 5px;  border: 1px solid #ccc;  border-radius: 5px;  cursor: pointer;  background-color: #f9f9f9;}.name-button.active {  background-color: #e0e0e0; /* 选中按钮的背景色 */}.image-container {  /* 图片容器样式，可以根据需要调整 */}</style><script>  var currentPerson = 'izumi'; // 默认显示的图片对应的人物  var personImages = {    'izumi': '和泉妃爱的图片URL',    'tokiwa': '常磐华乃的图片URL',    'nishiki': '锦明日海的图片URL',    'kamakura': '镰仓诗樱的图片URL'    // 你可以添加更多人物和对应的图片 URL  };  function changeImage(personName) {    document.getElementById('personImage').src = personImages[personName];    // 更新按钮的 active 状态    document.querySelectorAll('.name-button').forEach(button => {      button.classList.remove('active'); // 移除所有按钮的 active 类    });    document.querySelector(`.name-button[onclick="changeImage('${personName}')"]`).classList.add('active'); // 为当前选中的按钮添加 active 类        currentPerson = personName; // 更新当前人物  }  // 页面加载时，默认激活第一个按钮  document.querySelector(`.name-button[onclick="changeImage('${currentPerson}')"]`).classList.add('active');</script>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div align=&quot;center&quot;&gt;
-  &lt;div class=&quot;button-container&quot;&gt;
-    &lt;button class=&quot;name-button active&quot; onclick=&quot;changeImage(&#39;izumi&#39;)&quot;&gt;和泉妃爱&lt;/button&gt;
-  </summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>灵感满溢的甜蜜创想/灵感满溢的甜蜜创想凸</title>
